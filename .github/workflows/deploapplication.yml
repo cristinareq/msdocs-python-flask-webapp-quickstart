@@ -37,5 +37,5 @@ jobs:
       - name: "Deploy to Azure Web App"
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "cristinaEx3Webapp-webapp"
+          app-name: "cristinaEx3Webapp"
           images: "${{ env.REGISTRY_URL }}/${{env.IMAGE_NAME}}:latest"
